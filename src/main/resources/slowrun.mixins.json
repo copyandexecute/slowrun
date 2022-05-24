@@ -4,6 +4,9 @@
   "package": "de.hglabor.slowrun.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "HostileEntityMixin",
+    "PlayerManagerMixin",
+    "ServerPlayNetworkHandlerMixin",
     "StructureStartMixin"
   ],
   "client": [],
